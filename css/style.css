@@ -1,0 +1,51 @@
+* {
+	font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0px auto;
+	background-color: #FFF;
+	height: 360px;
+	width: 360px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 360px;
+	width: 360px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.instrucciones {
+	display: block;
+	height: 360px;
+	width: 360px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	padding-top: 220px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.subtitle {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.img {
+	height: 360px;
+	width: 360px;
+}
+
+#animalImg {
+	display: none;
+}
